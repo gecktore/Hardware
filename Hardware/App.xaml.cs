@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Hardware.Components;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,5 +14,7 @@ namespace Hardware
     /// </summary>
     public partial class App : Application
     {
+        public static HardWareShopEntities Entities = new HardWareShopEntities();
+        
     }
 }
