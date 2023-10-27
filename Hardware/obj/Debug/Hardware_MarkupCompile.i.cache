@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\geckt\Source\Repos\Hardware\Hardware\obj\Debug\
+C:\Users\geckt\source\repos\Hardware\Hardware\obj\Debug\
 Hardware
 none
 false
 DEBUG;TRACE
-C:\Users\geckt\Source\Repos\Hardware\Hardware\App.xaml
-31550039258
+C:\Users\geckt\source\repos\Hardware\Hardware\App.xaml
+4-1599266776
 2-1407320939
-16-1944505415
-181908857119
-MainWindow.xaml;Pages\listPage.xaml;Pages\userControl.xaml;
+191904261194
+18-293236321
+MainWindow.xaml;Pages\AddEditListPage.xaml;Pages\listPage.xaml;Pages\userControl.xaml;
 
 True
 

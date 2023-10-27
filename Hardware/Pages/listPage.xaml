@@ -5,19 +5,36 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Hardware.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="400" d:DesignWidth="400"
+      d:DesignHeight="450" d:DesignWidth="800"
       Title="listPage">
 
-    <Grid>
+    <Grid Background="Bisque">
         <Grid.RowDefinitions>
-            <RowDefinition Height="3*"/>
-            <RowDefinition Height="70*"/>
-            <RowDefinition Height="3*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="120*"/>
+            <RowDefinition Height="5*"/>
         </Grid.RowDefinitions>
-
-        <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Visible"
-        VerticalScrollBarVisibility="Disabled">
-            <WrapPanel x:Name="ProductWP"/>
+        <StackPanel Orientation="Horizontal">
+            <ComboBox Width="100" x:Name="SortCb"  SelectionChanged="SortCb_SelectionChanged_1">
+                <ComboBoxItem>По умолчанию</ComboBoxItem>
+                <ComboBoxItem>По возрастанию</ComboBoxItem>
+                <ComboBoxItem>По убыванию</ComboBoxItem>
+            </ComboBox>
+            <ComboBox Width="100" x:Name="DiscountSort" SelectionChanged="DiscountSort_SelectionChanged">
+                <ComboBoxItem>Все</ComboBoxItem>
+                <ComboBoxItem>0% до 5%</ComboBoxItem>
+                <ComboBoxItem>5% до 15%</ComboBoxItem>
+                <ComboBoxItem>15% до 30%</ComboBoxItem>
+                <ComboBoxItem>30% до 70%</ComboBoxItem>
+                <ComboBoxItem>70% до 100%</ComboBoxItem>
+            </ComboBox>
+            <TextBlock>По названию или описанию</TextBlock>
+            <TextBox Width="150" x:Name="SearchTb" VerticalAlignment="Center" TextChanged="SearchTb_TextChanged" ></TextBox>
+        </StackPanel>
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Grid.Row="1">
+            <WrapPanel x:Name="ServicesWp"/>
         </ScrollViewer>
+        <Button x:Name="AddBut" HorizontalAlignment="Right" Grid.Row="2" Width="100" Height="20" Click="AddBut_Click" Background="Aqua">Добавить</Button>
+        <Button x:Name="BackBtn" HorizontalAlignment="Left" Grid.Row="2" Width="100" Height="20">Назад</Button>
     </Grid>
 </Page>

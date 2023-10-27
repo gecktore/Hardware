@@ -1,4 +1,5 @@
-﻿using Hardware.Pages;
+﻿using Hardware.Components;
+using Hardware.Pages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +25,7 @@ namespace Hardware
         public MainWindow()
         {
             InitializeComponent();
-            MyFrame.Navigate(new listPage());
+            navigation.NextPage(new PageComponent("Список услуг", new listPage()));
         }
     }
 }

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\geckt\source\repos\Hardware\Hardware\App.xaml
-31550039258
+4-1599266776
 2-1407320939
-15137583203
+18-308617484
 18-293236321
-MainWindow.xaml;Pages\listPage.xaml;Pages\userControl.xaml;
+MainWindow.xaml;Pages\AddEditListPage.xaml;Pages\listPage.xaml;Pages\userControl.xaml;
 
-False
+True
 

@@ -25,3 +25,4 @@ C:\Users\geckt\Source\Repos\Hardware\Hardware\obj\Debug\Hardware.csproj.CoreComp
 C:\Users\geckt\Source\Repos\Hardware\Hardware\obj\Debug\Hardware.csproj.CopyComplete
 C:\Users\geckt\Source\Repos\Hardware\Hardware\obj\Debug\Hardware.exe
 C:\Users\geckt\Source\Repos\Hardware\Hardware\obj\Debug\Hardware.pdb
+C:\Users\geckt\source\repos\Hardware\Hardware\obj\Debug\Pages\AddEditListPage.g.cs

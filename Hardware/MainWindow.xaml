@@ -13,7 +13,7 @@
         </Grid.RowDefinitions>
         <Rectangle Fill="PeachPuff" Grid.ColumnSpan="2" />
         <Image Source="/res/telek.png" HorizontalAlignment="Left" Height="20"/>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Center" FontSize="15">Сводный магазин</TextBlock>
+        <TextBlock x:Name="TitleTb" HorizontalAlignment="Center" FontSize="15">Магазин</TextBlock>
         <Frame NavigationUIVisibility="Hidden" x:Name="MyFrame" Grid.Row="1"></Frame>
     </Grid>
 </Window>
